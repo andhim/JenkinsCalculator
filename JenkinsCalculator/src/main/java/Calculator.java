@@ -49,13 +49,13 @@ class Calculator {
         if (n==2) {
             return 1;
         }
-        int f = 1;
+        int first = 1;
         int second = 1;
         int res = 0;
 
         for (int i = 3; i <= n; ++i) {
-            res = f + second;
-            f = second;
+            res = first + second;
+            first = second;
             second = res;
         }
 
