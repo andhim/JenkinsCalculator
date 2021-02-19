@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage ('Navigation') {
             steps {
-                sh 'cd JenkinsCalculator'
+                sh 'cd JenkinsCalculator/'
             }
         }
         stage ('Clean') {
