@@ -5,6 +5,11 @@ pipeline {
         jdk 'JDK 8'
     }
     stages {
+        stage ('Navigation') {
+            steps {
+                sh 'cd JenkinsCalculator'
+            }
+        }
         stage ('Clean') {
             steps {
                 sh 'mvn clean'
