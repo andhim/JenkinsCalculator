@@ -9,12 +9,8 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <property>
-            <maven.compiler.source>1.8</maven.compiler.source>
-        </property>
-        <property>
-            <maven.compiler.target>1.8</maven.compiler.target>
-        </property>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
     <dependencies>
