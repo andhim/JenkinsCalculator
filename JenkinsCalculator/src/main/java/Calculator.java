@@ -53,7 +53,7 @@ class Calculator {
         int second = 1;
         int res = 0;
 
-        for (int i = 3; i <= n; ++i) {
+        for (int i = 3; i <= n; i++) {
             res = first + second;
             first = second;
             second = res;
