@@ -62,7 +62,7 @@ pipeline {
       stage('Deploy Image') {
         steps{
           script {
-            docker.withRegistry( '', "ch4zujuP" ) {
+            docker.withRegistry( '', ch4zujuP ) {
               dockerImage.push()
             }
           }
